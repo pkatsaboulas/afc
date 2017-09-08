@@ -172,6 +172,75 @@ header nav li img {
   color: white;
 }
 
+/* ––––––––––––––––––––––––––––––––––––––––––––
+FOOTER
+––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+  padding: 100px 0 0 0;
+  background: white;
+}
+footer .footer-nav-group {
+  width: 100%;
+  text-align: center;
+}
+footer .footer-nav-group ul {
+  display: inline-block;
+  margin: 0 40px;
+}
+footer .footer-nav-group ul li {
+  text-align: left;
+  list-style: none;
+  color: #1e448d;
+  font-size: 16px;
+  line-height: 26px;
+}
+footer .footer-nav-group ul li.footer-nav-heading {
+  font-weight: 700;
+  color: #1e448d;
+  margin-bottom: 20px;
+}
+footer .footer-nav-group img {
+  vertical-align: top;
+  margin: 3px 40px 0 40px;
+}
+footer .footer_lower {
+  border-top: 1px solid #ddd;
+  margin-top: 100px;
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+footer .footer_lower li {
+  display: inline;
+  margin: 0 5px;
+}
+footer .footer_lower li i {
+  font-size: 28px;
+  vertical-align: -2px;
+}
+footer .footer_lower a {
+  color: #777;
+  text-decoration: none;
+  -webkit-transition: color 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  -moz-transition: color 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  -ms-transition: color 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: color 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: color 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+footer .footer_lower a:hover {
+  color: white;
+}
+footer .footer_lower a.active {
+  color: white;
+}
+footer .copyright {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0 50px 0;
+  color: #777;
+  font-size: 13px;
+}
+
 .btn_primary {
   display: inline-block;
   height: 50px;
